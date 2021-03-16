@@ -1,5 +1,5 @@
-from pygeotemporal.sensors import SensorsApi
-from pygeotemporal.datapoints import DatapointsApi
+from pygeostreams.sensors import SensorsApi
+from pygeostreams.datapoints import DatapointsApi
 import pandas as pd
 from datetime import datetime
 
