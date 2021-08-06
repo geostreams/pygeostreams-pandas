@@ -4,7 +4,7 @@ import pandas as pd
 from datetime import datetime
 
 
-class Analysis:
+class ToPandas:
     host = None
     username = None
     password = None
@@ -18,6 +18,7 @@ class Analysis:
         self.password = password
 
     # TODO: Needed?
+    # TODO: Needed? Not used anywhere
     def create_geocode(self, coordinates):
         geocode = ''
         for coord in coordinates:
@@ -50,7 +51,7 @@ class Analysis:
 
         return self.create_sensor_dataframe(sensors)
 
-    # TODO: Needed?
+    # TODO: Needed? Not used anywhere
     def get_sensors_parameters(self, sensors):
         all_parameters = []
         for sensor in sensors:
